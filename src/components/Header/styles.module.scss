@@ -1,0 +1,39 @@
+.headerContainer {
+    background: #FFF;
+    display: flex;
+    border-bottom: 2px solid var(--Gainsboro);
+    font-family: 'Montserrat', sans-serif;
+    button {
+        background-color: transparent;
+        border: none;
+    }
+    p {
+        text-decoration: none;
+        color: var(--lead);
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin: 0px 20px 0px auto;
+        span {
+            color: #F7580B;
+            font-weight: 700;
+        }
+    }
+    a {
+        text-decoration: none;
+        color: var(--lead);
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-left: 49px;
+        &.off {
+            color: var(--lead);
+        }
+        &.selected {
+            color: #F7580B;
+            font-weight: 700;
+        }
+    }
+    .imageDetail {
+        padding-top: initial;
+        padding-bottom: initial;
+    }
+}
