@@ -5,3 +5,29 @@
     margin-top: 3vh;
     margin-bottom: 5vh;
 }
+
+// Responsividade
+//Phones
+@media (min-width: 359px) {
+    .title {
+        opacity: 0;
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    .title {
+        opacity: 1;
+        font-size: 20pt;
+        font-weight: lighter;
+        text-align: center;
+        margin-top: 3vh;
+        margin-bottom: 5vh
+    }
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {}

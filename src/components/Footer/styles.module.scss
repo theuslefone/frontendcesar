@@ -3,10 +3,33 @@
     grid-template-columns: 1fr 1fr;
     text-align: center;
     margin-top: 10vh;
+    width: 100%;
     p {
+        margin-left: 10vh;
         a {
-            color: #F7580B;
+            color: var(--orange);
             text-decoration: none;
         }
+    }
+}
+
+// Responsividade
+@media (max-width:358px) {
+    .footerContainer {
+        display: none;
+    }
+}
+
+//Phones
+@media (min-width: 359px) {
+    .footerContainer {
+        width: 100vh;
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 872px) {
+    .footerContainer {
+        width: 100%;
     }
 }

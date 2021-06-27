@@ -3,6 +3,7 @@
     display: flex;
     border-bottom: 2px solid var(--Gainsboro);
     font-family: 'Montserrat', sans-serif;
+    width: 100%;
     button {
         background-color: transparent;
         border: none;
@@ -37,3 +38,30 @@
         padding-bottom: initial;
     }
 }
+
+// Responsividade
+@media (max-width:358px) {
+    .headerContainer {
+        display: none;
+    }
+}
+
+//Phones
+@media (min-width: 359px) {
+    .headerContainer {
+        width: 100vh;
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 872px) {
+    .headerContainer {
+        width: 100%;
+    }
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {}
